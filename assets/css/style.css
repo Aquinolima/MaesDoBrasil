@@ -179,12 +179,12 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #fe503e
 
 .navbar>.container .navbar-brand { margin-left: 0; }
 
-.navbar-brand {
-	width: 173px;
+/* .navbar-brand {
+	width: 100px;
 	height: 106px;
-	background: url(../img/logo.png) left center no-repeat;
-	text-indent: -99999px;
-}
+	background: url(../img/logo-mães---fundo-transparente.png) left center no-repeat;
+
+} */
 
 /***** Slider *****/
 
