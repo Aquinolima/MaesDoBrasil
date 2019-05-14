@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
     <head>
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gioia - Bootstrap Business Template</title>
+        <title>UMB - União de Mães do Brasil</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
@@ -25,56 +25,59 @@
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <![endif]--> 
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="assets/ico/faviconmaes.jpg">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icone_maes.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icone_maes.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icone_maes.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/icone_maes.png">
 
     </head>
 
     <body>
+        
+			<!-- Top menu -->
+			<nav class="navbar" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="logo">
+							<img src="assets/ico/faviconmaes.jpg" alt="">
+						</div>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right">						
+							<li class="active">
+								<a href="index.html"><span aria-hidden="true" class="icon_house"></span><br>Home</a>
+							</li>
+							<li>
+								<a href="contact.html"><span aria-hidden="true" class="icon_camera"></span><br>Precisa de assistência</a>
+							</li>
+							<li>
+								<a href="index.html#help"><span aria-hidden="true" class="icon_comment"></span><br>Contribua</a>
+							</li>
+							<li>
+								<a href="index.html#"><span aria-hidden="true" class="icon_tools"></span><br>Seja um voluntário</a>
+							</li>
+							<li>
+								<a href="about.html"><span aria-hidden="true" class="icon_profile"></span><br>Sobre Nós</a>
+							</li>
+							<li>
+								<a href="contact.html"><span aria-hidden="true" class="icon_mail"></span><br>Contate-nos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-        <!-- Top menu -->
-		<nav class="navbar" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Gioia - Bootstrap Business Template</a>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav navbar-right">						
-						<li>
-							<a href="index.html"><span aria-hidden="true" class="icon_house"></span><br>Home</a>
-						</li>
-						<li>
-							<a href="portfolio.html"><span aria-hidden="true" class="icon_camera"></span><br>Portfolio</a>
-						</li>
-						<li>
-							<a href="#"><span aria-hidden="true" class="icon_comment"></span><br>Blog</a>
-						</li>
-						<li>
-							<a href="services.html"><span aria-hidden="true" class="icon_tools"></span><br>Services</a>
-						</li>
-						<li>
-							<a href="about.html"><span aria-hidden="true" class="icon_profile"></span><br>About</a>
-						</li>
-						<li class="active">
-							<a href="contact.html"><span aria-hidden="true" class="icon_mail"></span><br>Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
 
         <!-- Page Title -->
         <div class="page-title-container">
@@ -82,8 +85,8 @@
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 page-title wow fadeIn">
                         <span aria-hidden="true" class="icon_mail"></span>
-                        <h1>Contact Us /</h1>
-                        <p>Here is how you can contact us</p>
+                        <h1>Contate-Nos  /</h1>
+                        <p>Aqui está como você pode nos contatar</p>
                     </div>
                 </div>
             </div>
@@ -101,7 +104,7 @@
 	                    </p>
 	                    <form role="form" action="assets/contact.php" method="post">
 	                    	<div class="form-group">
-	                    		<label for="contact-name">Name</label>
+	                    		<label for="contact-name">Nome</label>
 	                        	<input type="text" name="name" placeholder="Enter your name..." class="contact-name form-control" id="contact-name">
 	                        </div>
 	                    	<div class="form-group">
@@ -109,67 +112,53 @@
 	                        	<input type="text" name="email" placeholder="Enter your email..." class="contact-email form-control" id="contact-email">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label for="contact-subject">Subject</label>
+	                        	<label for="contact-subject">Assunto</label>
 	                        	<input type="text" name="subject" placeholder="Your subject..." class="contact-subject form-control" id="contact-subject">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label for="contact-message">Message</label>
+	                        	<label for="contact-message">Mensagem</label>
 	                        	<textarea name="message" placeholder="Your message..." class="contact-message form-control" id="contact-message"></textarea>
 	                        </div>
-	                        <button type="submit" class="btn">Send</button>
+	                        <button type="submit" class="btn">Enviar</button>
 	                    </form>
 	                </div>
 	                <div class="col-sm-5 contact-address wow fadeInUp">
-	                    <h3>We Are Here</h3>
+	                    <h3>ESTAMOS AQUI</h3>
 	                    <div class="map"></div>
-	                    <h3>Address</h3>
-	                    <p>Via Principe Amedeo 9 <br> 10100, Torino, TO, Italy</p>
-	                    <p>Phone: 0039 333 12 68 347</p>
+	                    <h3>Endereço</h3>
+	                    <p>Rua ..... <br> n°, cidade, Estado, País</p>
+	                    <p>Contato:</p>
 	                </div>
 	            </div>
 	        </div>
         </div>
 
-        <!-- Footer -->
-        <footer>
+       <!-- Footer -->
+	  <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3 footer-box wow fadeInUp">
-                        <h4>About Us</h4>
+                        <h4>Sobre nós</h4>
                         <div class="footer-box-text">
 	                        <p>
 	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
 	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 	                        </p>
-	                        <p><a href="about.html">Read more...</a></p>
+	                        <p><a href="about.html">Leia mais...</a></p>
                         </div>
                     </div>
-                    <div class="col-sm-3 footer-box wow fadeInDown">
-                        <h4>Email Updates</h4>
-                        <div class="footer-box-text footer-box-text-subscribe">
-                        	<p>Enter your email and you'll be one of the first to get new updates:</p>
-                        	<form role="form" action="assets/subscribe.php" method="post">
-		                    	<div class="form-group">
-		                    		<label class="sr-only" for="subscribe-email">Email address</label>
-		                        	<input type="text" name="email" placeholder="Email..." class="subscribe-email form-control" id="subscribe-email">
-		                        </div>
-		                        <button type="submit" class="btn">Subscribe</button>
-		                    </form>
-		                    <p class="success-message"></p>
-		                    <p class="error-message"></p>
-                        </div>
-                    </div>
+                   					
                     <div class="col-sm-3 footer-box wow fadeInUp">
-                        <h4>Flickr Photos</h4>
+                        <h4>Galeria</h4>
                         <div class="footer-box-text flickr-feed"></div>
                     </div>
                     <div class="col-sm-3 footer-box wow fadeInDown">
-                        <h4>Contact Us</h4>
+                        <h4>Contato</h4>
                         <div class="footer-box-text footer-box-text-contact">
-	                        <p><span aria-hidden="true" class="icon_pin"></span> Address: Via Principe Amedeo 9, 10100, Torino, TO, Italy</p>
-	                        <p><span aria-hidden="true" class="icon_phone"></span> Phone: 0039 333 12 68 347</p>
-	                        <p><span aria-hidden="true" class="icon_profile"></span> Skype: Gioia_Business</p>
-	                        <p><span aria-hidden="true" class="icon_mail"></span> Email: <a href="#">contact@gioia.com</a></p>
+	                        <p><span aria-hidden="true" class="icon_pin"></span> Endereço: Rua _________, nº, Cidade, Estado, Brasil</p>
+	                        <p><span aria-hidden="true" class="icon_phone"></span> contato: _______</p>
+	                        <p><span aria-hidden="true" class="icon_profile"></span> Skype: Skype</p>
+	                        <p><span aria-hidden="true" class="icon_mail"></span> Email: <a href="#">@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -184,10 +173,8 @@
                     </div>
                     <div class="col-sm-5 footer-social wow fadeIn">
                         <a href="#"><span class="social_facebook"></span></a>
-                        <a href="#"><span class="social_dribbble"></span></a>
-                        <a href="#"><span class="social_twitter"></span></a>
-                        <a href="#"><span class="social_pinterest"></span></a>
-                    </div>
+                        <a href="#"><span class="social_instagram"></span></a>
+                                            </div>
                 </div>
             </div>
         </footer>
